@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <Box>
+    <Box mx="4rem">
       <Home />
     </Box>
   );
