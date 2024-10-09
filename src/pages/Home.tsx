@@ -22,13 +22,19 @@ export default function Home() {
             <Grid item>
               <Grid container spacing={6}>
                 <Grid item>
-                  <Typography variant="body1">Shop</Typography>
+                  <Typography variant="body1" sx={{ cursor: "pointer" }}>
+                    Shop
+                  </Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="body1">Blog</Typography>
+                  <Typography variant="body1" sx={{ cursor: "pointer" }}>
+                    Blog
+                  </Typography>
                 </Grid>
                 <Grid item>
-                  <Typography variant="body1">Our Story</Typography>
+                  <Typography variant="body1" sx={{ cursor: "pointer" }}>
+                    Our Story
+                  </Typography>
                 </Grid>
               </Grid>
             </Grid>
