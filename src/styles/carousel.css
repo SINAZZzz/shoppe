@@ -17,3 +17,19 @@
     width: 100%;
     object-fit: cover;
 }
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    opacity: 1;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 12px;
+    height: 12px;
+}
